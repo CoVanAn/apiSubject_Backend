@@ -34,9 +34,9 @@ app.get('/', (req, res) => {
 });
 
 // // listen
-// app.listen(port, () => {
-//     console.log(`Server is running on port ${port} ex: http://localhost:${port}`);
-// });
+app.listen(port, () => {
+    console.log(`Server is running on port ${port} ex: http://localhost:${port}`);
+});
 
 app.get('/favicon.png', (req, res) => res.status(204).end());
 
