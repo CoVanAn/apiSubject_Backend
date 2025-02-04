@@ -11,7 +11,7 @@ import 'dotenv/config'
 
 // app config
 const app = express();
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 4003;
 
 // middleware
 app.use(express.json());
