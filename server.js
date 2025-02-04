@@ -38,4 +38,6 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port} ex: http://localhost:${port}`);
 });
 
+app.get('/favicon.png', (req, res) => res.status(204).end());
+
 // mongodb+srv://covanan:cvan6323@cluster0.bdmttar.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
